@@ -1,1 +1,1 @@
-# truthsayer.github.io
+# AI Fake News Detector App
