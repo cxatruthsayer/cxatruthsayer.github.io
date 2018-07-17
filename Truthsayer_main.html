@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>Truthsayer</h1>
+<style>
+h1 {
+	font-size: 72px;
+	font-family: Calibri;
+}
+
+body {
+	color: white;
+	background-color: purple;
+	text-align: center;
+}
+
+form {
+	text-bottom: 100px;
+}
+
+h2 {
+	margin-bottom: 8px;
+	font-size: 24;
+}
+
+#submit {
+	background-color:transparent;
+	border:1px solid white;
+	color:white;
+	height:51px;
+	width:51px;
+	position:relative;
+	right:5px;
+	top:6px;
+	background-image:url('searchicon.png');
+	background-size:cover;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+	<form class="detectForm">
+		<div>
+			<input autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Ex: No climate change" id="string" type="text">
+			<input type="submit" class="button" value id="submit">
+		</div>
+	</form>
+	<div id="elaboration">
+		<p>Use the box provided to check for fake news content!</p>
+	</div>
+</div>
+</body>
+</html>
